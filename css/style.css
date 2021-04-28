@@ -83,7 +83,7 @@ body{
 *********************/
 .bannerVideo{
   width: 100%;
-  height: 700px;
+  height: 800px;
   overflow: hidden;	
 }
 .bannerVideo video {
@@ -91,6 +91,7 @@ body{
   min-height: 100%;
   width: auto;
   height: auto;
+  margin-top: -120px;
 }
 .videoCaption{
 	position: absolute;
@@ -1326,9 +1327,17 @@ footer{
 	text-decoration: underline;
 }
 
+
+
 @media only screen and (max-width: 767px){
 .navbar{
     z-index: 999;
+}
+#navbarSupportedContent{
+    background: white;
+}
+.burnscurl-nav .navbar-nav li .nav-link{
+    color: #000;
 }    
 .navbar-toggler{
     border-radius: 0;
@@ -1353,7 +1362,7 @@ footer{
     font-size: 13px;
 }
 .bannerVideo{
-    height: 430px;
+    height: 470px;
 }
 .services-box .d-flex{
     display: block !important;
@@ -1475,6 +1484,12 @@ footer{
     margin: auto;
     margin-bottom: 20px;
 }
+.videoCaption{
+    top: 20px;
+}
+.burnscurlf-map iframe{
+    height: 300px !important;
+}
 
 }
 
@@ -1504,26 +1519,26 @@ footer{
 }
 .about-caption p{
     padding: 0 36px;    
+    font-size: 20px;
+    line-height: 33px;
 }
 .services-block{
-    min-height: 300px;    
-}
-.fix-testimonial{
-    position: inherit;
+    min-height: 400px;    
 }
 .map-info-block{
     padding: 80px 20px;    
 }
 .map-info-block h2{
-    font-size: 21px;
-    line-height: 30px;    
+    font-size: 33px;
+    line-height: 38px;
+    font-weight: 700;   
 }
 .videoCaption h1{
     font-size: 58px;
     line-height: 65px;    
 }
 .videoCaption{
-    top: inherit;
+    top: 150px;
 }
 .burnscurl-nav{
     z-index: 999;
@@ -1546,6 +1561,29 @@ footer{
 .Obituaries-search-detail a{
     font-size: 15px;    
     line-height: 23px;    
+}
+.fix-testimonial{
+    max-width: 350px;
+    margin-top: 10px;    
+}
+.map-info-block p{
+    padding-right: 33px;    
+}
+.services-img a h3 {
+    font-weight: 700;
+    font-size: 22px;
+}
+.about-us-main{
+    padding: 120px 0px;
+}
+#navbarSupportedContent{
+    background: white;
+}
+.burnscurl-nav .navbar-nav li .nav-link{
+    color: #000;
+}
+.bannerVideo{
+    height: 650px;
 }
 
 }
