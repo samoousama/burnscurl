@@ -1238,7 +1238,22 @@ body{
     max-width: 700px;
     background: transparent;
 }
-
+.phone-number{
+    color: inherit;
+    text-decoration: none;
+}
+.phone-number:hover{
+    color: inherit;
+    text-decoration: none;
+}
+.link-inhert{
+    color: inherit;
+    text-decoration: none;   
+}
+.link-inhert:hover{
+    color: inherit;
+    text-decoration: none;   
+}
 
 /******************** 
   		Footer 
@@ -1453,6 +1468,84 @@ footer{
 }
 #watchVideo{
     margin-top: 70px;
+}
+.staff-block .staff-img{
+    width: 200px;
+    height: 200px;    
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+}
+
+@media(min-width: 768px) and (max-width: 1024px){
+.fix-sidebar{
+    position: inherit;
+}
+.content-tabs .c-tabs-menu{
+    margin-bottom: 40px;
+}
+.footer-logo img {
+    width: 151px;
+}
+.footer-widget h3{
+    font-size: 14px;
+    min-height: 30px;
+}
+.footer-widget .footer-link li a{
+    font-size: 13px;
+}
+.copyright{
+    font-size: 13px;      
+}
+.r-obituaries-img img {
+    height: 180px;
+    width: 100%;
+}
+.about-caption p{
+    padding: 0 36px;    
+}
+.services-block{
+    min-height: 300px;    
+}
+.fix-testimonial{
+    position: inherit;
+}
+.map-info-block{
+    padding: 80px 20px;    
+}
+.map-info-block h2{
+    font-size: 21px;
+    line-height: 30px;    
+}
+.videoCaption h1{
+    font-size: 58px;
+    line-height: 65px;    
+}
+.videoCaption{
+    top: inherit;
+}
+.burnscurl-nav{
+    z-index: 999;
+}
+.subscribe-obituaries .contact-form{
+    max-width: 400px;
+    margin:auto;
+}
+.icon-box-block{
+    min-height: 310px;
+    margin-bottom: 40px;    
+}
+.cremation-services .icon-box-block {
+    min-height: auto;
+    margin-bottom: 60px;
+}
+.benefits-card{
+    text-align: center;
+}
+.Obituaries-search-detail a{
+    font-size: 15px;    
+    line-height: 23px;    
 }
 
 }
