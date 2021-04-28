@@ -34,7 +34,7 @@ $(window).scroll(function() {
     } else{
         $(".testimonial-block").removeClass("fix-testimonial");
     }
-    if (scroll > 4150 ){
+    if (scroll > 4100 ){
         $(".testimonial-block").removeClass("fix-testimonial");
     }
 
