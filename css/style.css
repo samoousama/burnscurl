@@ -1363,7 +1363,7 @@ footer{
     font-size: 13px;
 }
 .bannerVideo{
-    height: 470px;
+    height: 510px;
 }
 .services-box .d-flex{
     display: block !important;
@@ -1486,7 +1486,7 @@ footer{
     margin-bottom: 20px;
 }
 .videoCaption{
-    top: 120px;
+    top: 50%;
 }
 .burnscurlf-map iframe{
     height: 300px !important;
@@ -1515,7 +1515,7 @@ footer{
     font-size: 13px;      
 }
 .r-obituaries-img img {
-    height: 180px;
+    height: 210px;
     width: 100%;
 }
 .about-caption p{
@@ -1524,7 +1524,7 @@ footer{
     line-height: 35px;
 }
 .services-block{
-    min-height: 440px;    
+    min-height: 460px;    
 }
 .map-info-block{
     padding: 80px 20px;    
@@ -1537,9 +1537,6 @@ footer{
 .videoCaption h1{
     font-size: 58px;
     line-height: 65px;    
-}
-.videoCaption{
-    top: 300px;
 }
 .burnscurl-nav{
     z-index: 999;
@@ -1578,7 +1575,7 @@ footer{
     padding: 120px 0px;
 }
 .bannerVideo{
-    height: 740px;
+    height: 750px;
 }
 .testimonial-section{
     padding: 100px 0px;
@@ -1596,6 +1593,30 @@ footer{
 .testimonial-block p{
     font-size: 25px;
     line-height: 31px;    
+}
+
+}
+
+@media(min-width: 320px) and (max-width: 767px){
+.videoCaption{
+    top:10%;
+}    
+}
+
+@media(max-width: 768px){
+.videoCaption{
+    top:10%;
+}    
+}
+@media(max-width: 1024px){
+.testimonial-block p{
+    padding-top: 5px;
+}
+.testimonial-section {
+    padding: 120px 0px;
+}
+.services-block {
+    min-height: 470px;
 }
 
 }
