@@ -49,6 +49,7 @@ body{
 *********************/
 .burnscurl-nav{
 	background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
 }
 .navbar-brand .logo{
 	width: 240px;
@@ -1485,7 +1486,7 @@ footer{
     margin-bottom: 20px;
 }
 .videoCaption{
-    top: 20px;
+    top: 120px;
 }
 .burnscurlf-map iframe{
     height: 300px !important;
@@ -1518,12 +1519,12 @@ footer{
     width: 100%;
 }
 .about-caption p{
-    padding: 0 36px;    
-    font-size: 20px;
-    line-height: 33px;
+    padding: 0 36px;
+    font-size: 21px;
+    line-height: 35px;
 }
 .services-block{
-    min-height: 400px;    
+    min-height: 440px;    
 }
 .map-info-block{
     padding: 80px 20px;    
@@ -1538,7 +1539,7 @@ footer{
     line-height: 65px;    
 }
 .videoCaption{
-    top: 150px;
+    top: 300px;
 }
 .burnscurl-nav{
     z-index: 999;
@@ -1576,14 +1577,25 @@ footer{
 .about-us-main{
     padding: 120px 0px;
 }
-#navbarSupportedContent{
-    background: white;
-}
-.burnscurl-nav .navbar-nav li .nav-link{
-    color: #000;
-}
 .bannerVideo{
-    height: 650px;
+    height: 740px;
+}
+.testimonial-section{
+    padding: 100px 0px;
+}
+
+}
+
+@media(min-width: 576px) and (max-width: 767px){
+.footer-logo img {
+    width: 140px;
+}
+.recent-obituaries{
+    padding: 100px 0px;
+}
+.testimonial-block p{
+    font-size: 25px;
+    line-height: 31px;    
 }
 
 }
