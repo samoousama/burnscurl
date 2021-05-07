@@ -1,1 +1,1 @@
-# burnscurl
+https://samoousama.github.io/burnscurl/
